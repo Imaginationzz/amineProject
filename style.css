@@ -1,0 +1,100 @@
+.container{
+    height: 100vh;
+    width: 100wh;
+    background-color:white;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    padding: 20px;
+    height: 70px;
+    background-color: bisque;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 10px 20px 0px rgba(0,0,0,0.7);
+-webkit-box-shadow: 2px 10px 20px 0px rgba(0,0,0,0.7);
+-moz-box-shadow: 2px 10px 20px 0px rgba(0,0,0,0.7);
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:3
+}
+.links{
+    display: flex;
+    flex:6
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:3
+}
+.list{
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    list-style: none;
+    width: 100%;
+    
+}
+.main{
+  
+    height:100vh;
+   
+    display: flex;
+}
+.left{
+    padding: 16px;
+    background-color:white;
+    flex:1;
+    border-radius: 15px;
+}
+   
+
+.right{
+    background-color:white;
+    border-radius: 15px;
+    display: flex;
+    flex:1;
+    padding:16px
+
+}
+.imgContainer{
+    
+    
+    width: 100%;
+}
+.image{
+   
+max-width: 80%;
+margin: auto;
+}
+.Input{
+padding: 12px 32px;
+border: 1px solid green;
+background: transparent;
+border-radius: 24px 4px;
+font-size: 1rem;
+margin-right: .8rem;
+font-family: 'Poppins', sans-serif;
+}
+.btn{
+    padding: 14px 32px;
+  border: 1px solid green;
+  
+  color: #fff;
+  border-radius: 24px 4px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  
+}
+.btn:hover{
+
+    box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
+  }
